@@ -62,7 +62,7 @@ Waveform shown by the GTKwave for the same example is:
 The synthesis tool being used is Yosys. The inputs for Yosys are the RTL design written in HDL and the libraries required. Here the libraries by sky130 is used. Libraries exist as ".lib" files. These libraries contain different flavours of the most common logical blocks(like AND, NOT gate, MUX, Flip-flops, etc). The circuit is synthesised with these logical blocks.  
 ##### Why do we need different flavours?
 The different flavours of same logic blocks(standard cells) allows these to be used in different applications. These flavours may work on different speeds. The faster the cell the more area and power required. The cell used depends on which parameter(s) is to be optimised.  
-Additionally different cells are required to meet the timing requirements. More about that is discussed in [Day 2](day-2).  
+Additionally different cells are required to meet the timing requirements. More about that is discussed in [Day 2](https://github.com/Sumanyu-Singh/sky130_RTL_DesignAndSynthesis_Workshop/edit/main/README.md#day-2-timing-libs-hierarchical-vs-flat-synthesis-and-efficient-flop-coding-styles).  
 
 First of all, Yosys tool is invoked in the terminal.
 
@@ -285,13 +285,13 @@ Similarly unwanted latches are inferred for incomplete case statements as well.
 For loops are always written inside "always" statements. The syntax for "for" loop is similar to that in C. For loops are used where multiple evaluating statements need to be run.  
 For example:  
 _Demux using for loop_
-![demux_gen logic](https://user-images.githubusercontent.com/78468534/120116279-17eb6700-c1a5-11eb-9c1a-0b65321bd293.jpeg)
+![demux_gen logic](https://user-images.githubusercontent.com/100671647/218303223-8ea845e3-d649-4e7b-bf9c-20691cb0e0ea.png)
 
   
 For generate statements are written outside "always" statement. It is used for instantiating a module multiple times within an RTL.  
 For example:  
 _Ripple carry adder using for generate_
-![rca logic](https://user-images.githubusercontent.com/78468534/120116313-39e4e980-c1a5-11eb-945e-9cd88ea0a5ed.jpeg)
+![rca logic](https://user-images.githubusercontent.com/100671647/218303482-cc86d77c-dcc1-4442-a055-10d3215a0050.png)
 
   
   
