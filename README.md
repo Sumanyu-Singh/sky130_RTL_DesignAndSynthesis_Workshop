@@ -62,7 +62,8 @@ Waveform shown by the GTKwave for the same example is:
 The synthesis tool being used is Yosys. The inputs for Yosys are the RTL design written in HDL and the libraries required. Here the libraries by sky130 is used. Libraries exist as ".lib" files. These libraries contain different flavours of the most common logical blocks(like AND, NOT gate, MUX, Flip-flops, etc). The circuit is synthesised with these logical blocks.  
 ##### Why do we need different flavours?
 The different flavours of same logic blocks(standard cells) allows these to be used in different applications. These flavours may work on different speeds. The faster the cell the more area and power required. The cell used depends on which parameter(s) is to be optimised.  
-Additionally different cells are required to meet the timing requirements. More about that is discussed in [Day 2](https://github.com/Sumanyu-Singh/sky130_RTL_DesignAndSynthesis_Workshop/edit/main/README.md#day-2-timing-libs-hierarchical-vs-flat-synthesis-and-efficient-flop-coding-styles).  
+Additionally different cells are required to meet the timing requirements. More about that is discussed in [Day 2](https://github.com/Sumanyu-Singh/sky130_RTL_DesignAndSynthesis_Workshop/edit/main/README.md#day-2-timing-libs-hierarchical-vs-flat-synthesis-and-efficient-flop-coding-styles)
+
 
 First of all, Yosys tool is invoked in the terminal.
 
