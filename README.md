@@ -296,7 +296,11 @@ _Ripple carry adder using for generate_
 
   
   
-## Acknowledgement
+## Acknowledgements
 * [Kunal Ghosh](https://github.com/kunalg123)
 * [Shon Taware](https://github.com/ShonTaware)
 * [Sumanto Kar](https://github.com/Eyantra698Sumanto)
+
+## Author
+
+[Sumanyu Singh](https://www.linkedin.com/in/sumanyu-singh-718272170/), M.Tech(Microelectronics), IIITA (2021-23), IIIT Allahabad, Prayagraj, Uttar Pradesh, India
