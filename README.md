@@ -303,4 +303,4 @@ _Ripple carry adder using for generate_
 
 ## Author
 
-[Sumanyu Singh](https://www.linkedin.com/in/sumanyu-singh-718272170/), M.Tech(Microelectronics), IIITA (2021-23), IIIT Allahabad, Prayagraj, Uttar Pradesh, India
+[Sumanyu Singh](https://www.linkedin.com/in/sumanyu-singh-718272170/), M.Tech (Microelectronics), IIITA (2021-23), IIIT Allahabad, Prayagraj, Uttar Pradesh, India
