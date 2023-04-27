@@ -24,7 +24,7 @@ This repo is the report for 5-day workshop on RTL Design and Synthesis with SKY1
 * [Day 5-If, case, for loop and for generate](#day-5-if-case-for-loop-and-for-generate)
   * [IF and CASE Statements](#if-and-case-statements)
   * [FOR loop and FOR GENERATE](#for-loop-and-for-generate)
-* [Acknowledgement](#acknowledgement)
+* [Acknowledgements](#acknowledgements)
 
 
 ---------
